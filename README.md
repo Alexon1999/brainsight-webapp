@@ -1,10 +1,5 @@
-# HooBank - Modern UI/UX website using React.js & Tailwind CSS
+# Brainsight
 
-![HooBank](https://i.ibb.co/BK1Hn0x/Screenshot-2022-08-08-at-4-05-48-PM.png)
+### Spécialiste de la détection des pathologies cérébrales
 
-
-### Showcase your dev skills with practical experience and land the coding career of your dreams
-💻 JS Mastery Pro - https://jsmastery.pro/youtube
-✅ A special YOUTUBE discount code is automatically applied!
-
-📙 Get the Ultimate Frontend & Backend Development Roadmaps, a Complete JavaScript Cheatsheet, Portfolio Tips, and more - https://www.jsmastery.pro/links
+Notre service d'IA utilise l'apprentissage profond pour détecter et diagnostiquer les pathologies cérébrales à partir d'images médicales. Notre technologie offre une grande précision et une détection précoce d'affections telles que l'alzheimer, les tumeurs.
