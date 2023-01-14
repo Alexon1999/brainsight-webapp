@@ -13,6 +13,11 @@ import {
   send,
   shield,
   star,
+  laurent,
+  haikel,
+  alexon,
+  feriel,
+  yuliya,
 } from "../assets";
 
 export const navLinks = [
@@ -30,7 +35,7 @@ export const navLinks = [
   },
   {
     id: "demo",
-    title: "Demo",
+    title: "Démo",
   },
 ];
 
@@ -64,40 +69,50 @@ export const feedback = [
     content:
       "Le [membre de l'équipe 2] est un professionnel accompli de [secteur/domaine concerné], qui a fait ses preuves dans [ce que le membre de l'équipe 2 a réussi]. En tant que [poste du membre de l'équipe 2], [le membre de l'équipe 2] est responsable de [ce dont le membre de l'équipe 2 est responsable].",
     name: "Yuliya",
-    title: "Founder & Leader",
-    img: people02,
+    title: "Fondateur & Data Scientist",
+    img: yuliya,
+    linkedinUrl: "https://www.linkedin.com/in/yuliya-sheichenka-6568a653/",
+    githubUrl: "",
   },
   {
     id: "feedback-2",
     content:
       "Le [membre de l'équipe 3] est une personne créative qui résout les problèmes et qui est passionnée par [ce qui passionne le membre de l'équipe 3]. [Il/elle apporte une nouvelle perspective à [son] rôle en tant que [poste du membre de l'équipe 3], et est toujours à la recherche de nouvelles façons d'améliorer [ce sur quoi le membre de l'équipe 3 travaille].",
     name: "Feriel",
-    title: "Founder & Leader",
-    img: people03,
+    title: "Fondateur & Data Scientist",
+    img: feriel,
+    linkedinUrl: "https://www.linkedin.com/in/ferielhamedi",
+    githubUrl: "https://github.com/feeMdj",
   },
   {
     id: "feedback-3",
     content:
       "Le [Membre de l'équipe 5] est un professionnel [adjectif] et [adjectif] ayant une solide expérience dans [l'industrie/le domaine concerné]. Avec [nombre] années d'expérience dans [l'industrie/le domaine concerné], [il/elle] a une compréhension approfondie de [compétences ou tâches pertinentes] et connaît bien [compétences ou tâches pertinentes].",
     name: "Alexon",
-    title: "Founder & Leader",
-    img: people03,
+    title: "Fondateur & Data Scientist",
+    img: alexon,
+    linkedinUrl: "https://www.linkedin.com/in/alexon-uthayakumar-9361221a2/",
+    githubUrl: "https://github.com/Alexon1999",
   },
   {
     id: "feedback-4",
     content:
       "Avec [nombre] années d'expérience dans [secteur/domaine concerné], [le membre de l'équipe 1] apporte à l'équipe une grande richesse de connaissances et d'expertise. Dans le cadre de [son] rôle de [poste du membre de l'équipe 1], [il/elle] travaille sur [ce sur quoi travaille le membre de l'équipe 1].",
-    name: "Laurent Vuelin",
-    title: "Founder & Leader",
-    img: people01,
+    name: "Laurent",
+    title: "Fondateur & Data Scientist",
+    img: laurent,
+    linkedinUrl: "https://www.linkedin.com/in/laurent-vullin/",
+    githubUrl: "https://github.com/lnilluv",
   },
   {
     id: "feedback-5",
     content:
       "[Le membre de l'équipe 4] apporte à l'équipe un mélange unique de [compétence ou trait pertinent] et de [compétence ou trait pertinent]. Avec [nombre] années d'expérience dans [l'industrie/le domaine concerné], [il/elle] a affiné [ses] compétences en [compétence ou tâche pertinente] et est devenu(e) un expert [respecté(e)/reconnu(e)] dans [l'industrie/le domaine concerné].",
     name: "Haikel",
-    title: "Founder & Leader",
-    img: people03,
+    title: "Fondateur & Data Scientist",
+    img: haikel,
+    linkedinUrl: "https://www.linkedin.com/in/ha%C3%AFkel-bouzazza-140647256/",
+    githubUrl: "https://github.com/temhzz",
   },
 ];
 
@@ -105,11 +120,11 @@ export const stats = [
   {
     id: "stats-1",
     title: "Précision",
-    value: "82%",
+    value: "99%",
   },
   {
     id: "stats-2",
-    title: "Diagnostic du cerveau",
+    title: "Diagnostics du cerveau",
     value: "2",
   },
   // {
@@ -131,65 +146,57 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Liens utiles",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Application",
+        link: "https://streamlit.brainsight.tech/",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Documentation de l'API",
+        link: "https://api.brainsight.tech/docs",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Conditions & Services",
+        link: "",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Communauté",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Centre d'aide",
+        link: "",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "Partenaires",
+        link: "",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Partenaire",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Nos partenaires",
+        link: "",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Devenir un partenaire",
+        link: "",
       },
     ],
   },

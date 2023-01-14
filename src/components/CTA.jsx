@@ -6,7 +6,7 @@ const CTA = () => (
     <div className="flex-1 flex flex-col">
       <h2 className={styles.heading2}>Essayez dès aujourd'hui notre service</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        pour méliorer le diagnostic médical.
+        pour améliorer le diagnostic médical.
       </p>
     </div>
 
