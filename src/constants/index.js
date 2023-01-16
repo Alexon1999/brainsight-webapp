@@ -69,7 +69,7 @@ export const feedback = [
     content:
       "Le [membre de l'équipe 2] est un professionnel accompli de [secteur/domaine concerné], qui a fait ses preuves dans [ce que le membre de l'équipe 2 a réussi]. En tant que [poste du membre de l'équipe 2], [le membre de l'équipe 2] est responsable de [ce dont le membre de l'équipe 2 est responsable].",
     name: "Yuliya",
-    title: "Fondateur & Data Scientist",
+    title: "Data Scientist",
     img: yuliya,
     linkedinUrl: "https://www.linkedin.com/in/yuliya-sheichenka-6568a653/",
     githubUrl: "",
@@ -79,7 +79,7 @@ export const feedback = [
     content:
       "Le [membre de l'équipe 3] est une personne créative qui résout les problèmes et qui est passionnée par [ce qui passionne le membre de l'équipe 3]. [Il/elle apporte une nouvelle perspective à [son] rôle en tant que [poste du membre de l'équipe 3], et est toujours à la recherche de nouvelles façons d'améliorer [ce sur quoi le membre de l'équipe 3 travaille].",
     name: "Feriel",
-    title: "Fondateur & Data Scientist",
+    title: "Data Scientist",
     img: feriel,
     linkedinUrl: "https://www.linkedin.com/in/ferielhamedi",
     githubUrl: "https://github.com/feeMdj",
@@ -89,7 +89,7 @@ export const feedback = [
     content:
       "Le [Membre de l'équipe 5] est un professionnel [adjectif] et [adjectif] ayant une solide expérience dans [l'industrie/le domaine concerné]. Avec [nombre] années d'expérience dans [l'industrie/le domaine concerné], [il/elle] a une compréhension approfondie de [compétences ou tâches pertinentes] et connaît bien [compétences ou tâches pertinentes].",
     name: "Alexon",
-    title: "Fondateur & Data Scientist",
+    title: "Data Scientist",
     img: alexon,
     linkedinUrl: "https://www.linkedin.com/in/alexon-uthayakumar-9361221a2/",
     githubUrl: "https://github.com/Alexon1999",
@@ -99,7 +99,7 @@ export const feedback = [
     content:
       "Avec [nombre] années d'expérience dans [secteur/domaine concerné], [le membre de l'équipe 1] apporte à l'équipe une grande richesse de connaissances et d'expertise. Dans le cadre de [son] rôle de [poste du membre de l'équipe 1], [il/elle] travaille sur [ce sur quoi travaille le membre de l'équipe 1].",
     name: "Laurent",
-    title: "Fondateur & Data Scientist",
+    title: "Data Scientist",
     img: laurent,
     linkedinUrl: "https://www.linkedin.com/in/laurent-vullin/",
     githubUrl: "https://github.com/lnilluv",
@@ -109,7 +109,7 @@ export const feedback = [
     content:
       "[Le membre de l'équipe 4] apporte à l'équipe un mélange unique de [compétence ou trait pertinent] et de [compétence ou trait pertinent]. Avec [nombre] années d'expérience dans [l'industrie/le domaine concerné], [il/elle] a affiné [ses] compétences en [compétence ou tâche pertinente] et est devenu(e) un expert [respecté(e)/reconnu(e)] dans [l'industrie/le domaine concerné].",
     name: "Haikel",
-    title: "Fondateur & Data Scientist",
+    title: "Data Scientist",
     img: haikel,
     linkedinUrl: "https://www.linkedin.com/in/ha%C3%AFkel-bouzazza-140647256/",
     githubUrl: "https://github.com/temhzz",
@@ -119,8 +119,13 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Précision",
+    title: "Sensibilité",
     value: "99%",
+  },
+  {
+    id: "stats-1",
+    title: "Spécificité",
+    value: "98%",
   },
   {
     id: "stats-2",
